@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.cena.tdd.domain.controller.UserControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-01-15T11:23:29" hostname="DESKTOP-N56J8EH" time="0.222">
+<testsuite name="com.cena.tdd.domain.controller.UserControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-01-16T01:05:42" hostname="DESKTOP-N56J8EH" time="0.244">
   <properties/>
-  <testcase name="regist : 유저 등록 테스트" classname="com.cena.tdd.domain.controller.UserControllerTest" time="0.211"/>
-  <testcase name="info : 유저 정보 조회 테스트" classname="com.cena.tdd.domain.controller.UserControllerTest" time="0.01"/>
-  <system-out><![CDATA[20:23:27.073 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.cena.tdd.domain.controller.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-20:23:27.202 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.cena.tdd.TddApplication for test class com.cena.tdd.domain.controller.UserControllerTest
+  <testcase name="regist : 유저 등록 테스트" classname="com.cena.tdd.domain.controller.UserControllerTest" time="0.231"/>
+  <testcase name="info : 유저 정보 조회 테스트" classname="com.cena.tdd.domain.controller.UserControllerTest" time="0.011"/>
+  <system-out><![CDATA[10:05:40.491 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.cena.tdd.domain.controller.UserControllerTest]: UserControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:05:40.618 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.cena.tdd.TddApplication for test class com.cena.tdd.domain.controller.UserControllerTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,12 +14,12 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.1)
 
-2024-01-15T20:23:27.528+09:00  INFO 2472 --- [    Test worker] c.c.t.d.controller.UserControllerTest    : Starting UserControllerTest using Java 17.0.9 with PID 2472 (started by Development in C:\project\TDD-Test\tdd)
-2024-01-15T20:23:27.529+09:00  INFO 2472 --- [    Test worker] c.c.t.d.controller.UserControllerTest    : No active profile set, falling back to 1 default profile: "default"
-2024-01-15T20:23:29.216+09:00  INFO 2472 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2024-01-15T20:23:29.216+09:00  INFO 2472 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2024-01-15T20:23:29.219+09:00  INFO 2472 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2024-01-15T20:23:29.244+09:00  INFO 2472 --- [    Test worker] c.c.t.d.controller.UserControllerTest    : Started UserControllerTest in 1.975 seconds (process running for 2.955)
+2024-01-16T10:05:40.958+09:00  INFO 16512 --- [    Test worker] c.c.t.d.controller.UserControllerTest    : Starting UserControllerTest using Java 17.0.9 with PID 16512 (started by Development in C:\project\TDD-Test\tdd)
+2024-01-16T10:05:40.959+09:00  INFO 16512 --- [    Test worker] c.c.t.d.controller.UserControllerTest    : No active profile set, falling back to 1 default profile: "default"
+2024-01-16T10:05:42.750+09:00  INFO 16512 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-01-16T10:05:42.751+09:00  INFO 16512 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-01-16T10:05:42.753+09:00  INFO 16512 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-01-16T10:05:42.780+09:00  INFO 16512 --- [    Test worker] c.c.t.d.controller.UserControllerTest    : Started UserControllerTest in 2.079 seconds (process running for 3.115)
 JSON : {"userId":"testID","userPw":"testPassword","userNickName":"testNickName"}
 
 MockHttpServletRequest:
